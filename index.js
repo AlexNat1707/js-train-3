@@ -131,7 +131,7 @@ console.log("convertToString(42)", convertToString(42)); // Виведе "42"
 // Задача 12: Напишіть функцію, яка окргугляє число до вказаної довжини
 
 function convertToPrecision(num, precision) {
-  return num.toPrecision(2);
+  return  num.toPrecision(2);
   // Використовуємо метод toPrecision(), щоб округлити число до вказаної довжини
 }
 
